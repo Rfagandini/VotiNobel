@@ -34,7 +34,9 @@ public class FXMLController {
 
     @FXML
     void doCalcolaCombinazione(ActionEvent event) {
+    	
     	txtResult.clear();
+    	
     	try {
     		int numeroCrediti = Integer.parseInt(txtInput.getText());
     			
@@ -57,6 +59,9 @@ public class FXMLController {
     	} catch (NumberFormatException e) {
     		txtResult.setText("Inserire un numero di crediti > 0");
     	}
+    	
+    	//txtInput.clear();
+    	
     }
 
     @FXML

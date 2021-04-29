@@ -41,5 +41,4 @@ public class PopulateDB {
 		System.out.println(vd.getTuttiEsami());
 
 	}
-	
 }
